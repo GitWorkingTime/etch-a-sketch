@@ -3,16 +3,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 1px;
 }
 
 .column {
     width: 20px;
     height: 20px;
-    background-color: antiquewhite;
+    border: black 1px solid;
 }
 
 .row {
     display: flex;
-    gap: 2px;
+    gap: 1px;
+}
+
+.trail {
+    background-color: black;
 }
